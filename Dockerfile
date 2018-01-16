@@ -35,5 +35,3 @@ RUN set -ex \
     && wget -q $SIGIL_URL -O sigil.tgz \
     && tar -zxv -C /usr/local/bin -f sigil.tgz \
     && rm sigil.tgz
-
-USER jenkins
